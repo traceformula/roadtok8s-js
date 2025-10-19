@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   vars:
-    nodejs_v: 23
+    nodejs_v: 18
   tasks:
     - name: Update and upgrade system
       apt:
