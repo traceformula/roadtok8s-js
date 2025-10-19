@@ -50,5 +50,5 @@ jobs:
     - name: Deploy Python via Ansible
       working-directory: ./devops/ansible/
       run: |
-       ansible-playbook deploy-python.yaml
+       ansible-playbook deploy-js.yaml
 
